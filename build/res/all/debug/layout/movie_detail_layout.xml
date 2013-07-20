@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/detail_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layer_background_color"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/detail_title_size"
+            android:id="@+id/movie_title"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/white"/>
+
+    <LinearLayout
+            android:id="@+id/detail_pic_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/movie_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/detail_vertical_margin">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/detail_movie_image"/>
+
+        <LinearLayout
+            android:id="@+id/details_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp">
+
+            <Button
+                    android:id="@+id/add_to_playlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add To Watchlist"/>
+
+            <Button
+                    android:id="@+id/watch_trailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Trailer"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_pic_container"
+            android:layout_marginTop="@dimen/detail_vertical_margin">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detail_default_text_size"
+                android:id="@+id/detail_synopsis"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/detail_pic_container"/>
+
+    </ScrollView>
+
+</RelativeLayout>

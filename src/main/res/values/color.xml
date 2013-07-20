@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#00ad71</color>
+    <color name="secondary_color">#a600a6</color>
+    <color name="background_color">#333333</color>
+    <color name="layer_background_color">#DD000000</color>
+    <color name="background_tab_pressed">#333333</color>
+    <color name="background_tab">#5e5e5e</color>
+</resources>

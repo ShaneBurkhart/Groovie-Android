@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="title_vertical_margin" >0dp
+                </dimen>
+                <dimen name="movie_item_padding" >5dp
+                </dimen>
+                <dimen name="detail_title_size" >22dp
+                </dimen>
+                <dimen name="shadow_width" >10dp
+                </dimen>
+                <dimen name="side_menu_title_size" >18dp
+                </dimen>
+                <dimen name="half_activity_horizontal_margin" >8dp
+                </dimen>
+                <dimen name="detail_vertical_margin" >12dp
+                </dimen>
+                <dimen name="side_menu_text_size" >22dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="grid_item_height" >300dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >10dp
+                </dimen>
+                <dimen name="title_text_size" >25dp
+                </dimen>
+                <dimen name="grid_item_width" >200dp
+                </dimen>
+                <dimen name="side_menu_vertical_margin" >12dp
+                </dimen>
+                <dimen name="detail_default_text_size" >17dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Groovie
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values-sw600dp\dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="sidebar_shadow"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable\sidebar_shadow.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values\slidinglayer-attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="SlidingLayer" >
+                    <attr
+                        name="shadowDrawable"
+                        format="boolean" />
+                    <attr
+                        name="shadowWidth"
+                        format="dimension" />
+                    <attr
+                        name="closeOnTapEnabled"
+                        format="boolean" />
+                    <attr
+                        name="openOnTapEnabled"
+                        format="boolean" />
+                    <attr
+                        name="offsetWidth"
+                        format="dimension" />
+                    <attr
+                        name="stickTo"
+                        format="enum" >
+                        <enum
+                            name="auto"
+                            value="0" />
+                        <enum
+                            name="right"
+                            value="-1" />
+                        <enum
+                            name="left"
+                            value="-2" />
+                        <enum
+                            name="middle"
+                            value="-3" />
+                    </attr>
+                </declare-styleable>
+            </file>
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values\color.xml"
+                qualifiers="" >
+                <color name="tab_indicator_color" >#000000
+                </color>
+                <color name="layer_background_color" >#DD000000
+                </color>
+                <color name="secondary_color" >#a600a6
+                </color>
+                <color name="background_color" >#333333
+                </color>
+                <color name="app_color" >#00ad71
+                </color>
+                <color name="background_tab" >#5e5e5e
+                </color>
+                <color name="background_tab_pressed" >#333333
+                </color>
+            </file>
+            <file
+                name="movie_grid_item"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\movie_grid_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="grid_layout"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\grid_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="movie_detail_layout"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\movie_detail_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="loading_layout"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\loading_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="two_column_movie_list"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\two_column_movie_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="two_column_movie_item"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\two_column_movie_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="white_glow"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable\white_glow.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="header"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable\header.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="background_tab"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\drawable\background_tab.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="PagerSlidingTabStrip" >
+                    <attr
+                        name="indicatorColor"
+                        format="color" />
+                    <attr
+                        name="underlineColor"
+                        format="color" />
+                    <attr
+                        name="dividerColor"
+                        format="color" />
+                    <attr
+                        name="indicatorHeight"
+                        format="dimension" />
+                    <attr
+                        name="underlineHeight"
+                        format="dimension" />
+                    <attr
+                        name="dividerPadding"
+                        format="dimension" />
+                    <attr
+                        name="tabPaddingLeftRight"
+                        format="dimension" />
+                    <attr
+                        name="scrollOffset"
+                        format="dimension" />
+                    <attr
+                        name="tabBackground"
+                        format="reference" />
+                    <attr
+                        name="shouldExpand"
+                        format="boolean" />
+                    <attr
+                        name="textAllCaps"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+            <file
+                name="side_menu"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\side_menu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_item"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\menu_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="movie_search"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\movie_search.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="my_watchlist"
+                path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\main\res\layout\my_watchlist.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\build\res\rs\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Users\Shane\AndroidStudioProjects\MovieProject\Movie\src\release\res" />
+    </dataSet>
+
+</merger>
